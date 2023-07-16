@@ -5,3 +5,5 @@ print(linguagens)  # ["python", "js", "c"]
 linguagens.extend(["java", "csharp"])
 
 print(linguagens)  # ["python", "js", "c", "java", "csharp"]
+
+#adiciona um outro conteúdo na lista
