@@ -3,9 +3,11 @@ def exibir_poema(data_extenso, *args, **kwargs):
     meta_dados = "\n".join([f"{chave.title()}: {valor}" for chave, valor in kwargs.items()])
     mensagem = f"{data_extenso}\n\n{texto}\n\n{meta_dados}"
     print(mensagem)
-
+#args vem como uma tupla
+#kwargs vem como um dicionário
 
 exibir_poema(
+    "Dom, 16 de Julho de 2023",
     "Zen of Python",
     "Beautiful is better than ugly.",
     "Explicit is better than implicit.",
@@ -29,3 +31,4 @@ exibir_poema(
     autor="Tim Peters",
     ano=1999,
 )
+
